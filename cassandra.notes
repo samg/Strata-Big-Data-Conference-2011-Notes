@@ -1,0 +1,91 @@
+Cassandra
+==================================================
+Talk by Jonathan Ellis (@spyced) cassandra commiter, and founder of DataStax
+which does cassandra consulting and management tools
+
+
+Relational Database
+==================================================
+Based on b-tree
+fails when index doesn't fit in memory
+
+
+Cassandra
+==================================================
+Log-Structured Merge-Tree -- Research Paper
+Bigtable: A Distributed Storage System for Structured Data
+
+Removes half of random io
+All writes are sequential
+Reconcile differences on reads (also compaction)
+Implement snapshots on any system that allows hard links
+
+Not a key value system
+Rows have columns
+
+It is BigTable's row format with Dynamo's distributed architecture (no single
+point of failure)
+
+Durability
+--------------------------------------------------
+- Write to commitlog
+- Write to Memtable
+- [amortized] flush memtable to sstable
+
+
+Store
+--------------------------------------------------
+- Stored on disk in row order
+- Stores column name with column value
+- uses *consistent hashing* to make sure rebalancing (adding and removing
+  nodes) involves minimal records transfer and sequential io.
+
+Reliability
+--------------------------------------------------
+- No single point of failure
+- Multiple datacenters
+- Monitorable
+-- How close is my cluster to needing more capacity?
+-- JMX "for those of you using Java"
+--- Allows live configuration of some stuff
+- Has the concept of "racks" for ensuring all replicas aren't in the same
+  datacenter
+
+Consistency
+--------------------------------------------------
+- Hinted Handoff -- best for short term downtimes (defaults to 1 hour max)
+- Read Repair - Check other replicas in background and make sure they're in
+  agreement, reconciles frequently accessed rows quickly
+- Anti-Entropy Repair - Basically rsync for databases, checks high level
+  hashes to check for consistency
+
+- Consistency is Tuneable (ONE, QUORUM, ALL)
+
+Questions and Answers
+--------------------------------------------------
+- Deploying in EC2?
+-- Recommend not using EBS Volumes (so you don't double down on network io)
+--- Use root partition for commit log
+
+- You shouldn't be flushing memtables more than every 10 minutes.
+- Writes are almost free in Cassandra
+
+Column Families
+--------------------------------------------------
+
+Two use cases:
+
+- Static - Like object data, Users, etc
+- Dynamic
+-- Denormalized
+-- Store Relationships
+-- rows don't have the same columns
+-- Can store an array with column names, and no values
+-- I think this is what people mean by "materialized views"
+
+There's no difference between an insert or update
+We model data in cassandra as "how do I get a single query from a single column family?"
+You can group things you want to keep in sync with a batch transaction
+
+Ruby Thrift Gem is 10x slower than Python and PHP analogs :-( (some slow shit in the c extension)
+Plans to ditch Thrift are dead, Thrift project has improved, fixed many issues, and is moving again

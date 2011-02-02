@@ -1,0 +1,127 @@
+How to Develop Big Data Application for Hadoop
+
+
+Abe Taha
+-- Ning, Google, Yahoo, Karmasphere
+
+Karamsphere - help developers w/ big data.
+
+Hadoop Product Stack Today
+  Big Data Development and Analytics (Karamsphere)
+  Big Data Management
+
+Ken Krugler -- AWS
+
+Hadoop Ecosystem
+==================================================
+
+Hadoop Stack
+--------------------------------------------------
+HDFS
+- Distributed FS
+- Data divided into blocks (usually 64Mb)
+- Blocks are replicated (usually 3x)
+MapReduce (MR)
+Hbase
+- Key Value Store
+Zookeeper
+- Lock manager
+- Modeled after Chubby
+- The Single Point of Failure for Hbase
+
+
+Higher Level Languages
+--------------------------------------------------
+Cascading -- Java API for modeling "workflows and jobs"
+- Higher level data flow language
+- Operates on sources and sinks
+- Turns workflows into jobs
+Hive
+Pig
+Mahout
+
+Supporting Projects
+--------------------------------------------------
+Log Processing
+-Scribe
+-Chukwa
+-Flume
+
+Workflow managers
+- Oozie
+
+Storage
+- Cassandra
+
+AWS Overview
+==================================================
+
+Account Management
+- Auth, Billing
+S3, EC2, EMR
+
+
+Cacading
+==================================================
+
+Real world problems involve hundreds of interrelated MR jobs
+You need an abstraction
+
+API based abstraction in Java :-(
+
+Hadoop Workhorses
+==================================================
+HDFS
+- blocks marginalize the cost of seeks
+- Stored on "Data Nodes"
+- "Name Node" is a Single-Point of Failure, says where data is. (possible to
+  set up some kind of shitty failover)
+- You can run out of memory on name node if you have many small files
+
+MR
+- blah blah blah
+- MR is too low level to express algorithms
+- Lots of boiler plate in low level Java
+- Most real cases need multiple passes of MR
+
+Cascading
+-- Data flow language (API) in Java
+- Pipes - Pipeline
+- Filters - have predefined operations. Array#select
+- Tuples
+- Taps - Sources or Sinks
+
+Hive
+- SQL clone
+
+Pig
+- Imperative language
+- Not Java syntax :-)
+- Looks kind of cool
+
+Playfish Case Study
+==================================================
+
+- They make games on Facebook (Pet Society, Madden NFL Superstars)
+- Millions of events coming in (every click in a game)
+- Took days to run any kind of report
+- This was basically a sales pitch I think
+
+Using Elastic Map Reduce
+==================================================
+
+- use elastic-mapreduce cli tool
+- You can monitor in AWS console
+
+Debugging
+- --log-uri
+- "trace" logging is way to chatty. Slows things down.
+- keep cluster alive once job finsihes
+- elastic-mapreduce (enable-debugging)
+
+New Feature
+Dynamic Cluster Sizes
+--------------------------------------------------
+- Automatically resice cluster between steps
+
+Wow lots of these presentations include enterprisy sales pitches

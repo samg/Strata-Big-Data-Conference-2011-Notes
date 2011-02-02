@@ -1,0 +1,39 @@
+Extracting Value from Semi Structured Data
+==================================================
+
+- web pages
+- Forms
+- Articles
+-  - Classified ads
+-  - Job postings
+-  - Real estate listings
+-  - Standar Reports
+- Email
+
+Monitor conditions that may indicate financial distress
+Footnote analysis, benchmarking, lead identification
+
+Tequnique
+--------------------------------------------------
+Uses C and Prolog
+Dictionary of Terms identifies document type like "Balance Sheet"
+"Predictive Model" using "Machine Learning"
+
+Insurance Claims
+--------------------------------------------------
+Word count variation.  Correlate word counts to claim cost.  (e.g. "Motorcycle"
+and "roll" correlate with high cost claims)
+
+Lessons
+--------------------------------------------------
+Exploit context to improve business value
+Predictive task
+
+Other Opportunities
+--------------------------------------------------
+Customer experience Improvement
+- Social Media
+- Blogs
+
+Sales Pitch "Deloitte can help you get $$ for your semi-structured data"
+This lady seems like kind of a poser
