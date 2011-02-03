@@ -1,0 +1,116 @@
+Where's the money in big data???
+==================================================
+
+- Tiom Guleri (Sierra Ventures)
+- Roger Ehrenberg (IA Ventures)
+- Ping Lee (Excel Patners)
+- Paul Kedrosky (Kauffman Foundation)
+
+
+Favorite Companies:
+--------------------------------------------------
+
+- Tiom, Sierra Ventures
+  - Checks his blackberry on stage
+  - Half of venture capital is "picking the right wave."
+  - Two "quick" anecdotes, then he'll add some color if there's time
+    - Green Plum investment
+    - Open source core
+    - Share nothing architecture
+    - Ran successfully
+    - 6 mo ago GMC (sp?) bought it for "big data" capability
+  - "Exits" are important
+  - Moved company from China to San Mateo
+  - It is easy to "surf on a rising tide when there's some action going on"
+  - "When I double click on an investment I look for the team that can iterate,
+    and product/market fit. Iterating is really, really key"
+  - "The way you hit the enterprise is what's exciting"
+    - Product
+    - Delivery
+    - "How you approach the enterprise is the other innovation I look for."
+  - "Life before product/market fit is hand to mouth"; you keep it really cheap
+  - Milestone base timeplan
+  - "Once you have the product market fit, you pour on the gas, raise money,
+    and look for market leadership"
+    - You don't want to be #3, #1 and #2 dominate the market.
+
+- Ping Lee (Excel Patners)
+  - Full portfolio is using "big data"
+  - People keep saying "petabytes"
+  - Mobile for data capture
+  - LookAle, sp?
+    - Provides "threat level" reports about there mobile data
+  - Cloudera
+    - Commercial enterprisification of Hadoop
+  - Rethinking the enterprise data warehousing
+  - "paradigm shift"
+  - Valuations
+    - We focus on the innovation cycle, not the valuation cycle
+  - Become a "platform" company, that's what we look for
+
+- Roger Ehrenberg (IA)
+  - Bilgard
+  - Reported (sp Recorded?) Future (analytics about something)
+  - Metamarkets (understand inventory)
+  - This is a generational opportunity to invest in the space
+    - Extract value from big data over time
+    - He writes about the "enterprise opportunity" (oxymoron?)
+    - People are scared of enterprise
+    - Break down siloed datastores
+  - Celia, maintains "super high quality twitter lists" (oxymoron?)
+    - Incredibly valuable
+    - New York is vibrant and focused on "solving distinct problems"
+    - You should solve a small problem, not just build technology
+  - Barriers to entry (doesn't AWS mean everyone can do big data 4 cheap?)
+    - are not in storage in compute
+    - They are in analytics, processing, skill and being nimble
+    - The cost of scaling a business is higher than it's ever been because of
+      the cost and difficulty finding skilled engineers.
+
+- Paul Kedrosky (Kauffman) (oddly this guy kind of makes sense when he talks)
+  - One of Largest LP in N America
+  - 50-80 companies
+  - He's a "data geek"
+  - "It's become obvious that in a strange way we are going backwards."
+  - "Curation is the new search is the new curation"
+  - Algorithmic changed the search landscape
+  - "Now if you search for diswasher reviews, it's a bombed out landscape like Dresden."
+  - It's like it's 1998 when google showed up
+  - NOW: How would you solve the "diswasher" curation problem (in a small
+    vertical silo, since you can't curate the whole web well)
+  - Jetsetter is a curator
+  - Wave of curation is happening right now.
+  - Next generation of algorithmic search coming afterwards, seeded by the
+    curated datasets
+  - People are trying to out-google google, with better search algorithms, but
+    that's dumb
+  - Problem is a data problem, not an algorithmic problem.  Fundamentally it's
+    not an algorithmic problem.
+  - He's interested in companies, that curate to a cleaner better dataset
+  - Zingged yahoo for unloading delicious since that's curation which is the
+    next big thing. Idiots!
+  - Curation can "seed" future search.
+  - The runway needs to be really long if you're selling to enterprises.  You
+    need a big patient sales force.
+
+Hottest shit on your list that you want right now?
+==================================================
+Paul
+  - Pendulum between algorithmic swinging to curation, seeding new algorithms
+  - We have bizzare clients for twitter that pretend its still chat (instead of
+    a newswire). Different (curated) use cases.
+    - Rethink twitter clients (sort by importance)
+
+Roger
+  - "Liquidation of markets"
+  - Saying New York multiple times per sentence.
+  - Data products becoming like financial products (wtf?)
+
+Ping
+  - what happens to all the enterprise applications when they're not running on
+    Oracle
+  - Hadoop & co in enterprise (who's going to get crazy rich on that?)
+
+Tiom
+  - "Analytics"
+  - Not just in algorithms, but in how you take algorithms to market.
