@@ -1,0 +1,60 @@
+Impact of Big Data on Society
+==================================================
+
+"The only questions left will be answered by computers because only computers
+will know what to ask"
+  -- James Cameron, 1969 (a journalist, shockingly not a quote from Terminator)
+
+Amber Case - Cyborg Antropology, Geoloki
+  - Flightcaster, Woke, startups
+  - Google guy
+
+How dependent will we get on data?
+--------------------------------------------------
+
+Very dependent.  Saves time, enables things you wouldn't be able to do.
+
+
+Challenge is figuring out what to ignore. Better filtering.
+
+Will we stop asking questions and wait for computers to just tell us what to
+do? Will we just "taste the data".
+--------------------------------------------------
+
+- People that use twitter too much would have been stupid anyway.
+- A large portion of the population will just consume "data channels"
+- We'll build new systems. Now we only have search.  Over time we'll have more
+  other systems that do other things for us.  We're in the "search phase of the web".
+- What people say about them selves is less useful than what they do.  Better
+  for analytics and prediction
+
+Privacy - What about assumption of guilt since everyone will expected to track
+everything (like location)? Won't turning off your phone make you look guilty?
+--------------------------------------------------
+- We're data nerds, so we don't really care about this.
+
+What about your search history?  How can people "own" that valuable
+behaviorable data?
+--------------------------------------------------
+- People are never more honest than with the seach bar.
+- Google guy gets really nervous and awkward.
+
+What are you most worried about?
+--------------------------------------------------
+- Expectation to record everything.
+- @caseorganic: Most organizations use data to detect trends, not to track
+  individuals.  Don't worry about it.  It's really useful data.
+- Data can be misleading when naively tied to an individual (person who
+  searches for medical aliments, for their sick family members.)
+
+What is the next big thing?
+--------------------------------------------------
+- Location Data - "Remote control for reality" - Tells you where you're going
+  instead of where you are.
+- Internet connected to mobile
+  - You could have a "personal learner" on the server some where, that just
+    figures shit out for you.
+  - Google guy mashes up contact history with social network.  "I can see I
+    haven't contacted this whole social group for a while."
+
+
