@@ -14,11 +14,11 @@ Favorite Companies:
   - Checks his blackberry on stage
   - Half of venture capital is "picking the right wave."
   - Two "quick" anecdotes, then he'll add some color if there's time
-    - Green Plum investment
+    - GreenPlum investment
     - Open source core
     - Share nothing architecture
     - Ran successfully
-    - 6 mo ago GMC (sp?) bought it for "big data" capability
+    - 6 mo ago EMC bought it for "big data" capability
   - "Exits" are important
   - Moved company from China to San Mateo
   - It is easy to "surf on a rising tide when there's some action going on"
